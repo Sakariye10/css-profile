@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&family=Montserrat:ital,wght@0,400;0,800;0,900;1,800;1,900&family=Poppins:ital,wght@0,700;1,800&display=swap');
+
+body{
+    background-color: #212121;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+   font-family: 'Lato', sans-serif;
+   position: relative; 
+
+   display: inline-block;
+   overflow: hidden;
+   margin: 10px;
+   min-width: 250px;
+   max-width: 310px;
+   width: 100%;
+   background-color: #fff;
+   color: #212121;
+   text-align: center;
+   font-size: 16px;
+   box-shadow: 0 0 5px rgba(0,0,0.15);
+}
+ .card * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ }
+.card .profile-img{
+    padding: 15% 10% 0;
+
+}
+.card .profile-img img{
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    border-radius: 50%;
+    max-width: 40%;
+}
+.card .figcaption{
+    padding: 5% 10% 15%;
+}
+.card h3{
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 30px 0;
+}
+.card h5{
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #8888;
+    letter-spacing: 1px;
+}
+.card .icon i{
+    color: #999;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+.card .icon i:hover{
+    color: #555;
+}
